@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/text_margin"
+    android:paddingTop="@dimen/text_margin"
+    android:paddingRight="@dimen/fab_margin"
+    android:paddingBottom="@dimen/fab_margin"
+    tools:context=".SlaverActivity">
+
+    <EditText
+        android:id="@+id/txtsearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="#C6FFFFFF"
+        android:hint="Search" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+    </ListView>
+
+</LinearLayout>
